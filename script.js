@@ -10,6 +10,16 @@ window.onscroll = function() {
     }
 };
 
+
+function message(){
+    let name = document.getElementById('name').value;
+let email = document.getElementById('email').value;
+let text = document.getElementById('text').value;
+    alert(name+ ' ' + email + ' ' + text);
+}
+
+
 scrollTopBtn.onclick = function() {
     window.scrollTo({ top: 0, behavior: 'smooth' });
 };
+

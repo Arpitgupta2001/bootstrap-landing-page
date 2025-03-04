@@ -26,8 +26,8 @@
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav">
                     <li class="nav-item"><a href="#" class="nav-link active">Home</a></li>
-                    <li class="nav-item"><a href="#" class="nav-link">About</a></li>
-                    <li class="nav-item"><a href="#" class="nav-link">Contact</a></li>
+                    <li class="nav-item"><a href="#features" class="nav-link">About</a></li>
+                    <li class="nav-item"><a href="#contact" class="nav-link" >Contact</a></li>
                 </ul>
             </div>
             <input type="text" placeholder="Search..." />
@@ -103,17 +103,17 @@
                 <form data-aos="fade-up">
                     <div class="mb-3">
                         <label class="form-label">Your Name</label>
-                        <input type="text" class="form-control" placeholder="Enter your name">
+                        <input id="name" type="text" class="form-control" placeholder="Enter your name">
                     </div>
                     <div class="mb-3">
                         <label class="form-label">Email</label>
-                        <input type="email" class="form-control" placeholder="Enter your email">
+                        <input type="email" class="form-control" placeholder="Enter your email" id="email">
                     </div>
                     <div class="mb-3">
                         <label class="form-label">Message</label>
-                        <textarea class="form-control" rows="4" placeholder="Write your message"></textarea>
+                        <textarea class="form-control" rows="4" placeholder="Write your message" id="text"></textarea>
                     </div>
-                    <button type="submit" class="btn btn-primary w-100">Send Message</button>
+                    <button type="submit" class="btn btn-primary w-100" onclick="message()">Send Message</button>
                 </form>
             </div>
         </div>
